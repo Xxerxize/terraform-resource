@@ -1,4 +1,4 @@
-<h1> Important note 
+# **Important note** 
 
 Note that every region has a different AMI ID. the AMI IDs keeps changing, so you must ensure that you use the latest AMI ID from the AWS console.
 
