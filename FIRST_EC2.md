@@ -1,7 +1,7 @@
 # **Important note** 
 
 Note that every region has a different AMI ID. the AMI IDs keeps changing, so you must ensure that you use the latest AMI ID from the AWS console.
-
+```r
 provider "aws" {
   region     = "us-west-2"
   access_key = "PUT-YOUR-ACCESS-KEY-HERE"
@@ -13,19 +13,19 @@ resource "aws_instance" "myec2" {
    instance_type = "t2.micro"
 }
 
+```
 
 
-
-Commands:
-
-```r
-$ terraform init` *to initiate terraform*
+> Commands:
 
 ```r
-$ terraform plan *to get nformation on what exactly terraform is about to create*
+$ terraform init to initiate terraform.
 ```
 ```r
-$ terraform apply *to actually create the resource written in the configuration.*
+$ terraform plan to get nformation on what exactly terraform is about to create.
+```
+```r
+$ terraform apply to actually create the resource written in the configuration.
 ```
   
 ***kindly note that is very important to run the Plan before the apply each time to see what will happen in advance!!***
