@@ -19,9 +19,13 @@ resource "aws_instance" "myec2" {
 Commands:
 
 ```r
-$ terraform init to initiate terraform
+$ terraform init` *to initiate terraform*
+
+```r
+$ terraform plan *to get nformation on what exactly terraform is about to create*
 ```
-$ terraform plan to get nformation on what exactly terraform is about to create
-$ terraform apply to actually create the resource written in the configuration.
+```r
+$ terraform apply *to actually create the resource written in the configuration.*
+```
   
-kindly note that is very important to run the Plan before the apply each time to see what will happen in advance.
+***kindly note that is very important to run the Plan before the apply each time to see what will happen in advance!!***
